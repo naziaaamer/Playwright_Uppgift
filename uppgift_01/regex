@@ -1,0 +1,65 @@
+1a Vilka strängar matchas av det reguljära uttrycket: "ab" ?
+"a b"
+"aBBa"
+"sabotör"
+
+Svar: "sabotör"
+
+1b Betrakta uttrycket "nisse". Vad skriver jag för att matcha både "Nisse", "NISSE" och "nisse"?
+
+Svar: /nisse/ig
+
+1c Vilka strängar matchas av "a*n" ? #this will filter all the a followed by n and single n.
+"an"
+"amerikan"
+"naturlig"
+"annandag"
+
+Svar:
+"an"            - an
+"amerikan"      - an
+"naturlig"      - n
+"annandag"      - an, n, an
+
+1d Vilka strängar matchas av "[ae]n" ? #This will match the a or e followed by n.
+"naiv"
+"inconsequential"
+"bae"
+
+Svar:
+"inconsequential"   - en
+
+1e Vilka strängar matchas av "je.+e"? # .+ will look for one or more characters in between.
+"je"
+"jee"
+"jeppe"
+"je je"
+
+Svar:
+"jeppe"
+"je je"
+
+
+1f Vilka strängar matchas av "\san?\s" #This will find the a and an if they have white spaces before.
+"sansad"
+" annan "
+"    an   na   an   "
+"be a darling"
+
+Svar:
+"    an   na   an   "       - an, an
+"be a darling"              - a
+
+1e Skriv ner med egna ord, vad följande uttryck matchar. "Strängar som innehåller…"
+"lines?"
+"^a*ö$"
+"[aeiouyåäö]+"
+"[123456789]\d*"
+"\d{4}-\d{2}-\d{2}"
+
+Svar:
+"[123456789]\d*" # matches all the numbers followed by zero. Will not match the zero if placed at starting point.
+
+"lines?" # String matches line or lines in text.
+
+"^a*ö$" #

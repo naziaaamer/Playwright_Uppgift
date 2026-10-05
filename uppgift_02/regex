@@ -1,0 +1,32 @@
+1a Skriv ett regex som kontrollerar att det finns en längd i strängen, som anges i centimeter:
+"Fiskarna som jag fångade var 55 cm långa."
+
+\d+\s*cm
+
+1b Denna gången vill vi veta om det finns två längder.
+
+\d+\s*(cm|m)
+
+1c Längderna ska vara samma enhet.
+"Fiskarna som jag fångade var 55 cm långa, så båda fick plats i min 1,23 m långa låda."
+
+\d+(?:,\d+)?\s*(?:cm|m)
+
+
+2 Skriv ett regex som matchar ett svenskt postnummer. Postnummer består av fem siffror indelade i två grupper med mellanslag emellan. Exempel: "123 45"
+
+\d{3}\s\d{2}
+
+3 Skriv ett regex som matchar ett datum skrivet enligt den internationella standarden ISO 8601, alltså 10 tecken med bindestreck mellan avdelningarna. Exempel: 2025-03-10.
+\d{4}-\d{2}-\d{2}
+
+
+4 Skriv ett regex som matchar ett pengavärde i siffror. Exempel på värden som ska matchas:
+200 kr
+12,50 kr
+0,35 kr
+
+\d+(?:\.\d+)?\skr
+
+
+

@@ -1,0 +1,22 @@
+User Story:
+As a user,
+I want to be able to read instructions on how to conduct a sprint retrospective,
+so that I can understand how to conduct one.
+
+Test Scenarios:
+Explicit:
+Verify that the user can open the website.
+Verify that the user can find the Sprint Retrospective button/section.
+Verify that the user can click the Sprint Retrospective button.
+Verify that the Sprint Retrospective instructions are displayed.
+Verify that the instructions are readable.
+
+
+Implicit:
+Verify that the website loads without errors.
+Verify that the Sprint Retrospective button is visible and easy to identify.
+Verify that the button is clickable.
+Verify that clicking the button opens the correct Sprint Retrospective content.
+Verify that the page does not display unrelated or incorrect information.
+Verify that the text is displayed properly without being cut off or overlapping.
+Verify that the user can read the instructions on different screen sizes.

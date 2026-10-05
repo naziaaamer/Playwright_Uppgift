@@ -1,0 +1,62 @@
+US1:
+
+As a user, I want to see the "sprint planning" meeting that takes place on the first day of a sprint,
+so that I know what to do during the meeting.
+
+Scenario:
+Navigate to the webpage https://lejonmanen.github.io/agile-helper/
+Click the button with the text "First"
+Click the button whose text contains "Sprint planning"
+Verify that a <dialog> element appears on the page, containing a heading with the text "Sprint planning"
+
+US2:
+As a user, I want to see the "Daily Standup" meeting that takes place on every day of a sprint,
+so that I know what to do during the meeting.
+
+Scenario:
+Navigate to the webpage https://lejonmanen.github.io/agile-helper/
+Click the button with the text "First"
+Click the button whose text contains "Daily standup"
+Verify that a <dialog> element appears on the page, containing a heading with the text "Daily standup"
+
+US3:
+As a user, I want to see the "Daily Standup" meeting that takes on every day of a sprint,
+so that I know what to do during the meeting through middle of the sprint button.
+
+Scenario:
+Navigate to the webpage https://lejonmanen.github.io/agile-helper/
+Click the button with the text "Somewhere in the middle"
+Click the button whose text contains "Daily standup"
+Verify that a <dialog> element appears on the page, containing a heading with the text "Daily standup"
+
+US4:
+As a user, I want to see the "Daily Standup" meeting on last day of the sprint,
+so that I know what to do during the meeting.
+
+Scenario:
+Navigate to the webpage https://lejonmanen.github.io/agile-helper/
+Click the button with the text "Last"
+Click the button whose text contains "Daily standup"
+Verify that a <dialog> element appears on the page, containing a heading with the text "Daily standup"
+
+US5:
+As a user, I want to see the "Sprint review" on last day of the sprint,
+so that I know how the sprint went.
+
+Scenario:
+Navigate to the webpage https://lejonmanen.github.io/agile-helper/
+Click the button with the text "Last"
+Click the button whose text contains "Sprint review"
+Verify that a <dialog> element appears on the page, containing a heading with the text "Sprint review"
+
+US6:
+As a user, I want to see the "Sprint retrospective" on last day of the sprint,
+so that I know how the sprint went and what can be done for future sprints.
+
+Scenario:
+Navigate to the webpage https://lejonmanen.github.io/agile-helper/
+Click the button with the text "Last"
+Click the button whose text contains "Sprint retrospective"
+Verify that a <dialog> element appears on the page, containing a heading with the text "Sprint retrospective"
+
+
